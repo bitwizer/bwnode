@@ -1,0 +1,33 @@
+{
+    "author": {
+        "name": "Bitwize",
+        "email": "apps@bitwize.com.lb",
+        "url": "https://www.bitwize.com.lb"
+    },
+    "bin": {
+        "bwnode": "./bin/bwnode",
+        "bwnode.js": "./bin/bwnode",
+        "bwnpm": "./bin/bwnpm"
+    },
+    "description": "Bitwize framework for Node.js",
+    "devDependencies": {},
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "keywords": [],
+    "license": "MIT",
+    "main": "./index.js",
+    "name": "bwnode",
+    "readmeFilename": "readme.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bitwizer/bwnode.git"
+    },
+    "contributors": [],
+    "version": "1.0.0",
+    "homepage": "https://www.bitwize.com.lb",
+    "bugs": {
+        "url": "https://github.com/bitwizer/bwnode/issues",
+        "email": "apps@bitwize.com.lb"
+    }
+}
