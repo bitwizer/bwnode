@@ -1,6 +1,6 @@
 {
   "_from": "bwnode",
-  "_id": "bwnode@1.0.3",
+  "_id": "bwnode@1.0.4",
   "_inBundle": false,
   "_integrity": "sha512-6KOtkAWp+BWYn2jiYa2dZNc+kVlzdGicCyFQgR7ZpngBLWD+KNF7oXvS7/dQBdltdEVoaTVMYmt7xakRVfyD2g==",
   "_location": "/bwnode",
@@ -54,5 +54,5 @@
     "type": "git",
     "url": "git+https://github.com/bitwizer/bwnode.git"
   },
-  "version": "1.0.3"
+  "version": "1.0.4"
 }
