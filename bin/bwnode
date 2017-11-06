@@ -4,8 +4,8 @@ var exec = require('child_process').exec;
 var fs = require('fs');
 var path = require('path');
 var os = require('os');
-var Utils = require('bwnode.js/utils');
-var Internal = require('bwnode.js/internal');
+var Utils = require('bwnode/utils');
+var Internal = require('bwnode/internal');
 var $type = 1;
 var isDirectory = false;
 
@@ -321,7 +321,7 @@ function main() {
 	console.log('');
 	console.log('|==================================================|');
 	console.log('| BWNode.js - Web framework for Node.js             |');
-	console.log('| Version: v' + require('bwnode.js').version_header.padRight(39) + '|');
+	console.log('| Version: v' + require('bwnode').version_header.padRight(39) + '|');
 	console.log('|==================================================|');
 	console.log('');
 

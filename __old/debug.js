@@ -28,7 +28,7 @@ process.title = 'bwnode: debug';
 function runapp() {
 
 	!options && (options = {});
-	require('bwnode');
+	require('bwnode.js');
 
 	var port = parseInt(process.argv[process.argv.length - 1]);
 

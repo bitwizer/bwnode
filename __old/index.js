@@ -97,7 +97,7 @@ HEADERS.mmr['Pragma'] = 'no-cache';
 HEADERS.mmr['Expires'] = '0';
 HEADERS.mmr['X-Powered-By'] = 'BWNode.js';
 HEADERS.proxy = {};
-HEADERS.proxy['X-Proxy'] = 'bwnode';
+HEADERS.proxy['X-Proxy'] = 'bwnode.js';
 HEADERS.file_lastmodified = {};
 HEADERS.file_lastmodified['Access-Control-Allow-Origin'] = '*';
 HEADERS.file_lastmodified[HEADER_CACHE] = 'public, max-age=11111111';
@@ -487,8 +487,8 @@ const controller_error_status = function(controller, status, problem) {
 function Framework() {
 
 	this.$id = null; // F.id ==> property
-	this.version = 1010;
-	this.version_header = '1.0.2';
+	this.version = 2800;
+	this.version_header = '2.8.0';
 	this.version_node = process.version.toString().replace('v', '').replace(/\./g, '').parseFloat();
 
 	this.config = {
@@ -6696,7 +6696,7 @@ F.$requestcontinue = function(req, res, headers) {
 
 	req.body = EMPTYOBJECT;
 	req.files = EMPTYARRAY;
-	req.isProxy = headers['x-proxy'] === 'bwnode';
+	req.isProxy = headers['x-proxy'] === 'bwnode.js';
 	req.buffer_exceeded = false;
 	req.buffer_has = false;
 	req.$flags = req.method[0] + req.method[1];

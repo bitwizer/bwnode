@@ -1,33 +1,58 @@
 {
-    "author": {
-        "name": "Bitwize",
-        "email": "apps@bitwize.com.lb",
-        "url": "https://www.bitwize.com.lb"
-    },
-    "bin": {
-        "bwnode": "./bin/bwnode",
-        "bwnode.js": "./bin/bwnode",
-        "bwnpm": "./bin/bwnpm"
-    },
-    "description": "Bitwize framework for Node.js",
-    "devDependencies": {},
-    "engines": {
-        "node": ">=4.0.0"
-    },
-    "keywords": [],
-    "license": "MIT",
-    "main": "./index.js",
+  "_from": "bwnode",
+  "_id": "bwnode@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-6KOtkAWp+BWYn2jiYa2dZNc+kVlzdGicCyFQgR7ZpngBLWD+KNF7oXvS7/dQBdltdEVoaTVMYmt7xakRVfyD2g==",
+  "_location": "/bwnode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bwnode",
     "name": "bwnode",
-    "readmeFilename": "readme.md",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/bitwizer/bwnode.git"
-    },
-    "contributors": [],
-    "version": "1.0.0",
-    "homepage": "https://www.bitwize.com.lb",
-    "bugs": {
-        "url": "https://github.com/bitwizer/bwnode/issues",
-        "email": "apps@bitwize.com.lb"
-    }
+    "escapedName": "bwnode",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bwnode/-/bwnode-1.0.2.tgz",
+  "_shasum": "4b13aeba22628acacf62625c7399b42234ecec49",
+  "_spec": "bwnode",
+  "_where": "/Users/FadBad/Desktop/bwnode",
+  "author": {
+    "name": "Bitwize",
+    "email": "apps@bitwize.com.lb",
+    "url": "https://www.bitwize.com.lb"
+  },
+  "bin": {
+    "bwnode": "./bin/bwnode",
+    "bwnode.js": "./bin/bwnode",
+    "bwnpm": "./bin/bwnpm"
+  },
+  "bugs": {
+    "url": "https://github.com/bitwizer/bwnode/issues",
+    "email": "apps@bitwize.com.lb"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "deprecated": false,
+  "description": "Bitwize framework for Node.js",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "homepage": "https://www.bitwize.com.lb",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "bwnode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitwizer/bwnode.git"
+  },
+  "version": "1.0.2"
 }
